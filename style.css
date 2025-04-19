@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background:  inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header{padding: 30px 0;}
+.h-ota{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h-ich{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.h-ich button{
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border-radius: 25px;
+  border: none;
+}
+.h-ich h2{
+  font-weight: 100;
+}
+swiper-slide{
+  background-color: inherit;
+}
+.box{
+  width: 500px;
+  height: 619px;
+
+}
+.s1ota{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s1t h1{
+  color: white;
+  font-size: 60px;
+}
+.s1t h2{
+  color: white;
+  margin: 20px 0 40px;
+  font-size: 40px
+}
+span{
+  color: black;
+}
+.s1t p{
+  line-height: 190%;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+.dad{
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+i{
+  color: white;
+  font-size: 28px;
+}
+.ikonka{
+  border: 2px solid white;
+  padding: 12px;
+  border-radius: 50%;
+}
